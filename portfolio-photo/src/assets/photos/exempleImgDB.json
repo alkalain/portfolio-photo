@@ -1,0 +1,18 @@
+{
+    "images": [
+      {
+        "name": "MountainPaysage.JPG",
+        "file": "exemples/MountainPaysage.JPG"
+      },
+      {
+        "name": "MountainPortrait.JPG",
+        "file": "exemples/MountainPortrait.JPG"
+      },
+      {
+        "name": "PlantePaysage.JPG",
+        "file": "exemples/PlantePaysage.JPG"
+      }
+    ]
+  }
+  
+  

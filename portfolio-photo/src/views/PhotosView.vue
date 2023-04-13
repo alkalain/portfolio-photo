@@ -4,8 +4,9 @@ import TheGalary from '../components/TheGalary.vue'
 <template>
 <!-- This page is presenting what the photographer can do:
 TODO:
-    - setup a fake api to have a test data for presentaition
-    - create a sql or some kind of file to incorpore photos
+    * save images in a json file
+    * setup a fake api to have a test data for presentaition
+    ° implement the fake api in the galary component
     - Make the presentation of each photo with quick description 
     and for what kind uses it cans be usefull
 -->

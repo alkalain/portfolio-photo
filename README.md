@@ -4,6 +4,11 @@ This project is a training project on my way to become a vue.js web dev.
 Also I will use it to make a real photography portfolio because it is one of my other activity.
 
 So, here is a todo list of what I have to do on the projetct:
+(precision : 
+    "-" means have to do
+    "°" means in progress
+    "*" means done
+)
 
 Home page :
     - Logo/ or Profile photography
@@ -14,8 +19,9 @@ Navgation bar:
     - style the nav to have a comon nav bar 
     -style a home page nav menu
 Photo galary :
-    - setup a fake api to have a test data for presentaition
-    - create a sql or some kind of file to incorpore photos
+    * setup a fake api to have a test data for presentaition
+    * save images in a json file
+    ° implement the fake api in the galary component
     - Make the presentation of each photo with quick description and for what kind uses it cans be usefull
 
 About me page:
