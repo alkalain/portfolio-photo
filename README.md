@@ -6,7 +6,7 @@ Also I will use it to make a real photography portfolio because it is one of my 
 So, here is a todo list of what I have to do on the projetct:
 
 Home page :
-    - Logo/ or Profile photographi
+    - Logo/ or Profile photography
     - a big navigation menu
 
 Navgation bar:
@@ -15,7 +15,7 @@ Navgation bar:
     -style a home page nav menu
 Photo galary :
     - setup a fake api to have a test data for presentaition
-        - create a sql or some kind of file to incorpore photos
+    - create a sql or some kind of file to incorpore photos
     - Make the presentation of each photo with quick description and for what kind uses it cans be usefull
 
 About me page:
