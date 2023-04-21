@@ -13,8 +13,8 @@ TODO:
 
     <div class="about">
         <h2>Here is some exemples of what I can do</h2>
+        <main>
+            <TheGalary/>
+        </main>
     </div>
-    <main>
-        <TheGalary/>
-    </main>
 </template>
