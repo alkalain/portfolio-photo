@@ -6,7 +6,7 @@ import TheGalary from '../components/TheGalary.vue'
 TODO:
     * save images in a json file
     * setup a fake api to have a test data for presentaition
-    ° implement the fake api in the galary component
+    * implement the fake api in the galary component
     - Make the presentation of each photo with quick description 
     and for what kind uses it cans be usefull
 -->

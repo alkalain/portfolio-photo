@@ -3,13 +3,14 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
+
 <template>
   
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
+  <header class="header">
+    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="100" height="100" />
+    
     <div class="wrapper">
-      <HelloWorld msg="Welcome" />
+      
       <!-- Navigation section Obviusly...
       But what is intersting is the router part 
     so:
@@ -25,16 +26,11 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink class="nav" to="/photos">My photos</RouterLink>
         <RouterLink class="nav" to="/mystuff">My equipement</RouterLink>
       </nav>
+      <HelloWorld msg="Welcome" />
     </div>
   </header>
   <!-- That think over here refereing to the vue router module that let me making all my app pages routing withe one file and and a reference to it within this file.-->
   <RouterView />
 </template>
 
-<style scoped>
-.nav{
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-}
-</style>
+

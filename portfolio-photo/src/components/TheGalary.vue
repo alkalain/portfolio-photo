@@ -1,14 +1,10 @@
 <script>
 /* 
 TODO :
-find a way to see images 
-at this point every soltion not worcking 
-Try to do the api extraction with text to review how to extract data from an api
--> pb the images are recived by client but not pushed to the dom
-find a way
 
 
 api key :
+site : https://www.pexels.com/api/documentation/
 nzKrZoQuPRSCYbVQIxuPDoMYb4UimVxhawO3leHGJSJv3P3tkeO2wQxg
 */
 //C:\Users\Utilisateur\OneDrive\Documents\Alain\Entreprise\Code\apprentissage\vue\Vue_Projects\DB\photos\exemples
@@ -24,7 +20,7 @@ created(){
         fetch('http://localhost:3000/images')
             .then(response => response.json())
             .then((response)=> {
-                console.log(response[0]); // Add this line to log the API response
+               // console.log(response[0]); // Add this line to log the API response
                 this.exemples=response;
                 
             });
@@ -39,8 +35,9 @@ created(){
     v-for="(exemple,index) in exemples" >
     <ul>
       <li>
-        {{exemple.name}} 
+        <div class="debug">{{exemple.name}} </div>
         <img
+        :class="exemple.format"
         :src="exemple.file" 
         :alt="exemple.name">
           </li>
