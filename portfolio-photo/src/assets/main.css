@@ -41,24 +41,38 @@ a,
     display: grid;
     /* justify-content: space-around; */
 
-    grid-template-columns:1fr 2fr;
+    grid-template-rows:1fr 1fr;
     padding: 0 2rem;
   }
   
 }
+.center{
+  display: flex;
+ justify-content: center;
+ align-items: flex-end;
+ /*margin: auto;*/
+}
+
 .nav{
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  padding: 0 2rem;
+}
+
+/*gallary*/
+.galary{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  padding: 0 2rem;
 }
 .portrait{
   width: 200px;
   height: 320px;
 }
 .paysage{
-  width: 320px;
-  height: 200px;
+  width: 480px;
+  /* height: 200px; */
 }
 .debug{
-visibility: collapse;
+visibility: hidden;
 }

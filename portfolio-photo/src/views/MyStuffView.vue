@@ -10,7 +10,7 @@ import Equipement from '../components/Equipement.vue'
     -->
     <div class="about">
         <h2>What am i using to shoot ?</h2>
-       <main>
+       <main >
         <Equipement/>
        </main>
 

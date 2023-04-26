@@ -12,17 +12,17 @@ So, here is a todo list of what I have to do on the projetct:
 
 Home page :
     - Logo/ or Profile photography
-    - a big navigation menu
+    ° a big navigation menu
 
 Navgation bar:
-    - routlinks to all the pages (done)
+    * routlinks to all the pages 
     - style the nav to have a comon nav bar 
-    -style a home page nav menu
+    - style a home page nav menu
 Photo galary :
     * setup a fake api to have a test data for presentaition
     * save images in a json file
-    ° implement the fake api in the galary component
-    - Make the presentation of each photo with quick description and for what kind uses it cans be usefull
+    * implement the fake api in the galary component
+    ° Make the presentation of each photo with quick description and for what kind uses it cans be usefull
 
 About me page:
     - write a pargraph presenting my parcour and who am I
@@ -31,7 +31,7 @@ About me page:
     - also ad some background style 
 
 About equipement page :
-    - make the smae kind of galary but this time with a dedicated dataset of equipements stuff.
+    ° make the smae kind of galary but this time with a dedicated dataset of equipements stuff.
 
 Style: 
     - chose a general color style for the whole app (mabe a B/W style, or a more colored one)
