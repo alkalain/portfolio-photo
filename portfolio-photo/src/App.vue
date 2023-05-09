@@ -6,10 +6,10 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   
-  <header class="header">
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="100" height="100" />
+  <header class="">
+    <img alt="Vue logo" class="" src="@/assets/logo.svg" width="100" height="100" />
     
-    <div class="wrapper">
+    <div class="">
       <HelloWorld msg="Welcome" />
       <!-- Navigation section Obviusly...
       But what is intersting is the router part 
@@ -19,12 +19,12 @@ import HelloWorld from './components/HelloWorld.vue'
     the View files are a kind of component (so a vue file).
     Then within this Views you can add all the components you need for present information or data (that are not View components).
     -->
-      <nav class="nav">
-        <RouterLink class="nav" to="/">Home</RouterLink>
-        <RouterLink class="nav" to="/about">About</RouterLink>
-        <RouterLink class="nav" to="/aboutme">About Me</RouterLink>
-        <RouterLink class="nav" to="/photos">My photos</RouterLink>
-        <RouterLink class="nav" to="/mystuff">My equipement</RouterLink>
+      <nav class="bg-gray-600">
+        <RouterLink class="" to="/">Home</RouterLink>
+        <RouterLink class="" to="/about">About</RouterLink>
+        <RouterLink class="" to="/aboutme">About Me</RouterLink>
+        <RouterLink class="" to="/photos">My photos</RouterLink>
+        <RouterLink class="" to="/mystuff">My equipement</RouterLink>
       </nav>
       
     </div>

@@ -12,7 +12,7 @@ import TheWelcome from '../components/TheWelcome.vue'
      - style the nav to have a comon nav bar 
      - style a home page nav menu
   -->
-  <main>
+  <main class="text-gray-600">
     <TheWelcome />
   </main>
 </template>

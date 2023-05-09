@@ -1,3 +1,7 @@
+<script setup>
+import AboutMeMain from '../components/AboutMeMain.vue'
+
+</script>
 <template>
     <!-- This page present who am I :
     TODO:
@@ -7,6 +11,6 @@
         - also ad some background style 
  -->
     <div class="about">
-        <h3>Who the fuck am I ?</h3>
+        <AboutMeMain/>
     </div>
 </template>
