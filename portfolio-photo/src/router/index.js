@@ -35,7 +35,8 @@ const router = createRouter({
       name: 'photos',
       component: PhotosView
     },
-  ]
+  ],
+  linkActiveClass:'bg-blue-700 text-[#FD93C5] border-amber-50'
 })
 
 export default router

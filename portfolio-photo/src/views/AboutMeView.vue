@@ -10,7 +10,7 @@ import AboutMeMain from '../components/AboutMeMain.vue'
         - Style the page to have the photo on the top and text above cenered
         - also ad some background style 
  -->
-    <div class="about">
+    <div class="">
         <AboutMeMain/>
     </div>
 </template>

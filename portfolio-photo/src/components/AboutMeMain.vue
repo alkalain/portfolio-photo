@@ -12,23 +12,14 @@ export default {
       <h1>Who the fuck am I ?</h1>
     </template>
     <template #main> </template>
-        <h3 class="is title is-4">Student</h3>
-        <h3 class="is title is-4">Photographer</h3>
-        <h3 class="is title is-4">Web developper</h3>
-        <h3 class="is title is-4">Entrepronor</h3>
+        <h3 class="text-3xl">Student</h3>
+        <h3 class="text-3xl">Photographer</h3>
+        <h3 class="text-3xl">Web developper</h3>
+        <h3 class="text-3xl">Entrepronor</h3>
     <template #footer>
-      <h2 class="is title center">Contact me !</h2>
-      <div class="">
-        <span>
-          <a
-            class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-58e921f"
-            href="https://instagram.com/itsrainingcolor"
-            target="_blank"
-          >
-            <span class="elementor-screen-only">Instagram</span>
-            <i class="fas fa-instagram"></i>
-          </a>
-        </span>
+      <h2 class="text-2xl text-center">Contact me !</h2>
+      <div class="flex items-center">
+        <font-awesome-icon :icon="['fab', 'instagram']" size="2xs" />
       </div>
     </template>
   </text-writing-panel>

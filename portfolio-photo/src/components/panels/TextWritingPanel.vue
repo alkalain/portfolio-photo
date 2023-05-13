@@ -1,9 +1,9 @@
 <template>
-    <div class="container">
+    <div class="grid-rows-3">
     <header>
-        <slot name="header"></slot>
+        <slot class="" name="header"></slot>
     </header>
-    <main>
+    <main name="main">
         <slot></slot>
     </main>
     <footer>
