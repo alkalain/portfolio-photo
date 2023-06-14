@@ -11,9 +11,9 @@ TODO:
     and for what kind uses it cans be usefull
 -->
 
-    <div class="about">
-        <h2>Here is some exemples of what I can do</h2>
-        <main>
+    <div >
+        <h2 class="text-xl font-bold text-center p-2 pb-6">Here is some exemples of what I can do</h2>
+        <main class="">
             <TheGalary/>
         </main>
     </div>

@@ -18,49 +18,84 @@ import HelloWorld from './components/HelloWorld.vue'
     the View files are a kind of component (so a vue file).
     Then within this Views you can add all the components you need for present information or data (that are not View components).
     -->
-      <nav class="flex justify-center rounded-md  pb-0.5 font-medium
+      <nav class="flex justify-center rounded-xl pb-0.5 font-medium border-s border-blue-300 
       
       ">
         <RouterLink class="
         hover:bg-blue-700 
-        hover:text-[#FDCB93] 
+        hover:text-white
         hover:border-s-4 
         hover:border-b-4 
-        hover:border-amber-50 
+        hover:border-[#FD93C5] 
         hover:shadow-2xl
-        rounded-md pl-1 px-1 pb-1 border-s-4 border-b-4 border-blue-300 shadow " to="/">Home</RouterLink>
+        hover:rounded-md
+        rounded-md 
+        pl-1 px-1 pb-1 
+        border-s-4 
+        border-b-4 
+        border-amber-50
+        shadow
+        " to="/">Home</RouterLink>
         <RouterLink class="
         hover:bg-blue-700 
-        hover:text-[#FDCB93] 
+        hover:text-white 
         hover:border-s-4 
         hover:border-b-4 
-        hover:border-amber-50 
+        hover:border-[#FD93C5] 
         hover:shadow-2xl
-        rounded-md pl-1 px-1 pb-1 border-s-4 border-b-4 border-blue-300 shadow " to="/about">About</RouterLink>
+        hover:rounded-md
+        rounded-md 
+        pl-1 px-1 pb-1 
+        border-s-4 
+        border-b-4 
+        border-amber-50
+        shadow 
+        " to="/about">About</RouterLink>
         <RouterLink class="
         hover:bg-blue-700 
-        hover:text-[#FDCB93] 
+        hover:text-white 
         hover:border-s-4 
         hover:border-b-4 
-        hover:border-amber-50 
+        hover:border-[#FD93C5] 
         hover:shadow-2xl
-        rounded-md pl-1 px-1 pb-1 border-s-4 border-b-4 border-blue-300 shadow " to="/aboutme">About Me</RouterLink>
+        hover:rounded-md
+        rounded-md 
+        pl-1 px-1 pb-1 
+        border-s-4 
+        border-b-4 
+        border-amber-50
+        shadow 
+        " to="/aboutme">About Me</RouterLink>
         <RouterLink class="
         hover:bg-blue-700 
-        hover:text-[#FDCB93] 
+        hover:text-white 
         hover:border-s-4 
         hover:border-b-4 
-        hover:border-amber-50 
+        hover:border-[#FD93C5] 
         hover:shadow-2xl
-        rounded-md pl-1 px-1 pb-1 border-s-4 border-b-4 border-blue-300 shadow " to="/photos">My photos</RouterLink>
+        hover:rounded-md
+        rounded-md 
+        pl-1 px-1 pb-1 
+        border-s-4 
+        border-b-4 
+        border-amber-50
+        shadow 
+        " to="/photos">My photos</RouterLink>
         <RouterLink class="
         hover:bg-blue-700 
-        hover:text-[#FDCB93] 
+        hover:text-white 
         hover:border-s-4 
         hover:border-b-4 
-        hover:border-amber-50 
+        hover:border-[#FD93C5] 
         hover:shadow-2xl
-        rounded-md pl-1 px-1 pb-1 border-s-4 border-b-4 border-blue-300 shadow " to="/mystuff">My equipement</RouterLink>
+        hover:rounded-md
+        rounded-md 
+        pl-1 px-1 pb-1 
+        border-s-4 
+        border-b-4 
+        border-amber-50
+        shadow 
+        " to="/mystuff">My equipement</RouterLink>
       </nav>
       
     </div>

@@ -1,10 +1,15 @@
+<script>
+
+</script>
 <template>
     <div class="grid-rows-3">
     <header>
-        <slot class="" name="header"></slot>
+        <slot class="" name="h3"></slot>
     </header>
-    <main name="main">
-        <slot></slot>
+    <main class="">
+        <slot name="main">
+            
+        </slot>
     </main>
     <footer>
         <slot name="footer"></slot>
